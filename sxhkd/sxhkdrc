@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	/usr/bin/kitty	
+	/usr/bin/kitty
 
 # program launcher
 super + d
-	/usr/bin/rofi -show run
+	rofi -show run
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -130,37 +130,9 @@ super + alt + {Left,Down,Up,Right}
 
 # Firefox
 super + shift + f
-	firefox
+	firefox-esr
 
 # BurpSuite
 super + shift + b
 	burpsuite
 
-###############
-# ScreenShots #
-###############
-
-@Print
-        screenshot select
-
-@Print + ctrl
-        screenshot
-
-@Print + alt
-        screenshot window
-
-# Volume
-#XF86AudioRaiseVolume
-#    pactl set-sink-volume 0 +5%
-#XF86AudioLowerVolume
-#    pactl set-sink-volume 0 -5%
-#XF86AudioMute
-#    pactl set-sink-mute 0 toggle
-
-# Screen Brightness
-#XF86MonBrightness{Up,Down}  
-#    brightnessctl -c backlight s 10{+,-}
-
-# Keyboard backlight
-#XF86KbdBrightness{Up,Down}
-#    brightnessctl -d smc::kbd_backlight s 10{+,-}
