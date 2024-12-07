@@ -25,3 +25,5 @@ sudo wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.
 rm Hack.zip README.md LICENSE.md
 sudo apt install zsh
 ```
+
+![Entorno](entorno.png)
